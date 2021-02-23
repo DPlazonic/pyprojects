@@ -6,3 +6,9 @@ while True:
    miles = km * 0.621371
 
    print("{0} kilometers is {1} miles".format(km, miles))
+
+   try_again = input("Another one? (y/n)")
+   
+   if try_again == "n":
+      print("Goodbeye!")
+      break 
