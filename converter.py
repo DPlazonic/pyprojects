@@ -9,6 +9,6 @@ while True:
 
    try_again = input("Another one? (y/n)")
    
-   if try_again == "n":
+   if try_again.lower() == "n":
       print("Goodbeye!")
       break 
