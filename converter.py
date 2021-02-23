@@ -5,4 +5,4 @@ while True:
 
    miles = km * 0.621371
 
-   print(str(km)+ " " + "kilometers is" + str(miles)+ " " + "miles")
+   print("{0} kilometers is {1} miles".format(km, miles))
